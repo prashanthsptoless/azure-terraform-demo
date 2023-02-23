@@ -25,10 +25,18 @@ terraform {
   }
 }
 
+#provider "azurerm" {
+#  features{}
+#    subscription_id     = "1a03097d-acea-4652-9359-ee20a58c6383"
+#    client_id           = "b14c84cd-2f24-4632-aa38-817b1b4065d0"
+#    tenant_id           = "e8297bd2-7420-41c8-8f42-2ee1d08be009"
+#    client_secret       = "PY68Q~5vxleD7FQCYTbMpFtQP6uJbcJhIf1QRc0k"
+#}
+
 provider "azurerm" {
   features{}
-    subscription_id     = "1a03097d-acea-4652-9359-ee20a58c6383"
-    client_id           = "b14c84cd-2f24-4632-aa38-817b1b4065d0"
-    tenant_id           = "e8297bd2-7420-41c8-8f42-2ee1d08be009"
-    client_secret       = "PY68Q~5vxleD7FQCYTbMpFtQP6uJbcJhIf1QRc0k"
+    subscription_id     = "__subscription-id__"
+    client_id           = "__client-id__"
+    tenant_id           = "__tenant-id__"
+    client_secret       = "__client-secret__"
 }
